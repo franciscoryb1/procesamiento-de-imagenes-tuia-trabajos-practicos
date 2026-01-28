@@ -1,20 +1,76 @@
-﻿# PDI-TUIA-RodriguezYBarros-
- 
-Trabajo Práctico N°3 de Procesamiento de Imágenes I
+# Procesamiento de Imágenes I – Trabajos Prácticos (TUIA)
 
-## Requisitos previos para correr los ejercicios:
-1) Clonar el repositorio https://github.com/franciscoryb1/PDI-TUIA-RodriguezYBarros-Texier-Masciangelo.git
-2) Acceder a la carpeta: cd .\TP3
-3) Tener python instalado en el entorno a utilizar. Se puede descargar desde https://www.python.org/downloads/
-4) Instalar las librerías que serán usadas en los ejercicios:
-   - OpenCV: pip install opencv-python
-   - Matplotlib: pip install matplotlib
-   - numpy: pip install numpy
-   
-## Ejercicio 1: Detección de carriles
-Este ejercicio utiliza las siguientes librerías: cv2, numpy y matplotlib
+Repositorio académico que reúne los trabajos prácticos de la materia **Procesamiento de Imágenes I** de la **Tecnicatura Universitaria en Inteligencia Artificial (TUIA)**.
 
-Archivos necesarios: Los archivos 'ruta_1.mp4', 'ruta_2.mp4' que se encuentra en la misma carpeta donde va a correr el script
+Incluye scripts, insumos (imágenes y videos) y documentación asociada a cada trabajo práctico, organizados de forma clara para facilitar su ejecución, análisis y evaluación académica.
 
-Ejecución: Al correr el programa mostrará el video con el carril delimitado con ambas líneas en color azul
+---
 
+## Objetivos
+
+* Aplicar técnicas fundamentales de procesamiento de imágenes utilizando Python.
+* Desarrollar soluciones correctas y eficientes a los ejercicios propuestos en cada trabajo práctico.
+* Documentar los procedimientos y resultados obtenidos.
+* Consolidar buenas prácticas de organización del código y reproducibilidad.
+
+---
+
+## Estructura del repositorio
+
+* **TP1/**: ejercicios, insumos e informe del Trabajo Práctico 1.
+* **TP2/**: ejercicios, imágenes de prueba e informe del Trabajo Práctico 2.
+* **TP3/**: ejercicios, videos de prueba e informe del Trabajo Práctico 3.
+* **unidad_1...unidad_6/**: materiales correspondientes a las distintas unidades de la cursada.
+
+---
+
+## Requisitos
+
+* **Python 3.9 o superior**
+* Dependencias listadas en `requirements.txt`:
+
+  * `opencv-python`
+  * `numpy`
+  * `matplotlib`
+  * `roipoly`
+
+---
+
+## Instalación y configuración
+
+1. Clonar el repositorio.
+2. (Opcional) Crear y activar un entorno virtual:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # Linux / Mac
+.venv\\Scripts\\activate     # Windows
+```
+
+3. Instalar dependencias:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Uso
+
+Ejecutar los scripts desde la raíz del repositorio. Algunos ejemplos:
+
+```bash
+python TP1/Ejercicio1.py
+python TP2/Ejercicio2.py
+python TP3/ejercicio1.py
+```
+
+**Nota:** algunos ejercicios requieren archivos de imagen o video que ya se encuentran dentro de cada carpeta de TP.
+
+Por ejemplo, en **TP3**, el archivo `ejercicio1.py` utiliza los videos `ruta_1.mp4` y `ruta_2.mp4`, ubicados en la carpeta `TP3/`.
+
+---
+
+## Créditos
+
+Trabajo realizado por **Rodríguez, Barros, Texier y Masciangelo** para la cátedra de **Procesamiento de Imágenes I** (TUIA).
